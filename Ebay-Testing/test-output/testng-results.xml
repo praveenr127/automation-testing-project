@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-24T23:05:57 IST" name="Test Automation" finished-at="2022-11-24T23:08:01 IST" duration-ms="124479">
+    <groups>
+    </groups>
+    <test started-at="2022-11-24T23:05:57 IST" name="Ebay Testing" finished-at="2022-11-24T23:08:01 IST" duration-ms="124479">
+      <class name="com.qa.Test_Script.TC_Ebay_IndexSearch">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.qa.Test_Script.TC_Ebay_IndexSearch@235ecd9f]" started-at="2022-11-24T23:07:13 IST" name="setUp" finished-at="2022-11-24T23:07:40 IST" duration-ms="27172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.ebay.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="user_signin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.Test_Script.TC_Ebay_IndexSearch@235ecd9f]" started-at="2022-11-24T23:07:40 IST" name="user_signin" data-provider="getData" finished-at="2022-11-24T23:08:01 IST" duration-ms="20730" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Avengers]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone X]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[praveenryzen@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ryzen0p0g]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_signin -->
+      </class> <!-- com.qa.Test_Script.TC_Ebay_IndexSearch -->
+      <class name="com.qa.Test_Script.TC_Ebay_Signin">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.qa.Test_Script.TC_Ebay_Signin@793f29ff]" started-at="2022-11-24T23:05:57 IST" name="setUp" finished-at="2022-11-24T23:06:02 IST" duration-ms="4933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.ebay.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="user_signin(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.Test_Script.TC_Ebay_Signin@793f29ff]" started-at="2022-11-24T23:06:03 IST" name="user_signin" data-provider="getData" finished-at="2022-11-24T23:06:35 IST" duration-ms="32075" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Avengers]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone X]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[praveenryzen@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ryzen0p0g]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- user_signin -->
+      </class> <!-- com.qa.Test_Script.TC_Ebay_Signin -->
+      <class name="com.qa.Test_Script.TC_Ebay_Search">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:com.qa.Test_Script.TC_Ebay_Search@202b0582]" started-at="2022-11-24T23:06:35 IST" name="setUp" finished-at="2022-11-24T23:07:01 IST" duration-ms="26444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.ebay.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="search_product(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.qa.Test_Script.TC_Ebay_Search@202b0582]" started-at="2022-11-24T23:07:01 IST" name="search_product" data-provider="getData" finished-at="2022-11-24T23:07:13 IST" duration-ms="11741" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Avengers]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone X]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[praveenryzen@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[ryzen0p0g]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search_product -->
+      </class> <!-- com.qa.Test_Script.TC_Ebay_Search -->
+    </test> <!-- Ebay Testing -->
+  </suite> <!-- Test Automation -->
+</testng-results>
